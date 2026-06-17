@@ -119,6 +119,9 @@ table {
   line-height: 1.2;
 }
 .slogan__description {
+  background-color: rgba(228, 227, 232, 0.8);
+  border-radius: 10px;
+  padding: 20px;
   color: #7591A3;
   font-size: 16px;
   width: 427px;
@@ -128,6 +131,7 @@ table {
   position: relative;
 }
 .slogan__see-work-btn {
+  cursor: pointer;
   margin-top: 105px;
   margin-left: 135px;
   margin-bottom: 86px;
@@ -242,6 +246,11 @@ table {
 .activity__link {
   color: #FF9900;
   font-weight: 100;
+  text-decoration: none;
+  align-items: center;
+}
+.activity__arrow {
+  align-items: center;
 }
 
 .footer {
