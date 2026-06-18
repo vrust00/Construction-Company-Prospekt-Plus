@@ -1,10 +1,10 @@
-.slogan {
+.projects-description {
    position: relative;       
    color: #263640;
    font-family: 'PFAgoraSansPro';
    padding-right: 20px;
    padding-left: 20px;
-   
+   padding-bottom: 30px;
    &__background {
       position: absolute;
       background-color: #E4E3E8;
@@ -23,7 +23,7 @@
       position: relative;  
       margin-left: 135px;
       font-size: 60px;
-      width: 608px;
+      
       padding-top: 119px;
       line-height: 1.2;
 

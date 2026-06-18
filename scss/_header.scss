@@ -4,14 +4,14 @@
    display: flex;
    background-color: #c21919;
    justify-content: space-between;
-   padding: 24px 139px;
+   padding: 12px 139px;
    color: white;
    font-family: 'PFAgoraSansPro';
-   z-index: 100;
-
+   z-index: 3;
+   
    &__logo {
-      height: 50px;
-      width: 100px;
+      height: 80px;
+      width: 150px;
       
       @media screen and (max-width: 992px) {
          padding: 0;
