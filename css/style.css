@@ -77,7 +77,7 @@ table {
   position: sticky;
   top: 0;
   display: flex;
-  background-color: #263640;
+  background-color: #c21919;
   justify-content: space-between;
   padding: 24px 139px;
   color: white;
@@ -85,8 +85,8 @@ table {
   z-index: 100;
 }
 .header__logo {
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 50px;
+  width: 100px;
 }
 @media screen and (max-width: 992px) {
   .header__logo {
@@ -244,7 +244,9 @@ table {
   margin-left: 135px;
   margin-bottom: 86px;
   padding: 19px 56px;
-  background-color: #263640;
+  background-color: #c21919;
+  border-color: #f61e1e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   color: white;
   font-size: 20px;
   border-radius: 8px;
@@ -353,7 +355,7 @@ table {
 .achievements__description {
   grid-column: 2;
   font-size: 16px;
-  margin-top: 30px;
+  margin-top: 40px;
   grid-row: 1;
   font-weight: 100;
 }
@@ -371,7 +373,8 @@ table {
 }
 .partners__container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-top: 47px;
   width: -moz-fit-content;
   width: fit-content;
@@ -387,20 +390,23 @@ table {
 }
 @media screen and (max-width: 540px) {
   .partners__container {
-    flex-direction: column;
-    justify-content: center;
-    margin: 30px auto;
+    margin: 30px 20px;
   }
 }
 .partners__logo {
-  padding: 28px 32px;
+  display: block;
+  width: 140px;
+  height: 90px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  width: 8vw;
+  background-color: white;
 }
 @media screen and (max-width: 540px) {
   .partners__logo {
-    width: 20vw;
-    margin-bottom: 20px;
+    width: 80px;
+    height: 60px;
   }
 }
 .partners__link {
@@ -494,7 +500,7 @@ table {
 }
 
 .footer {
-  background-color: #263640;
+  background-color: #c21919;
   font-family: "PFAgoraSansPro";
   width: 100%;
   height: 280px;
@@ -512,6 +518,8 @@ table {
 }
 .footer__logo {
   margin: 60px 115px;
+  height: 50px;
+  width: 100px;
 }
 @media screen and (max-width: 992px) {
   .footer__logo {
@@ -559,4 +567,8 @@ table {
 }
 .footer__link:hover {
   color: #FF9900;
+}
+.footer__copyright {
+  color: white;
+  margin: auto 115px;
 }/*# sourceMappingURL=style.css.map */

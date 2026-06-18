@@ -2,7 +2,7 @@
    position: sticky;
    top: 0;
    display: flex;
-   background-color: #263640;
+   background-color: #c21919;
    justify-content: space-between;
    padding: 24px 139px;
    color: white;
@@ -10,7 +10,8 @@
    z-index: 100;
 
    &__logo {
-      height: fit-content;
+      height: 50px;
+      width: 100px;
       
       @media screen and (max-width: 992px) {
          padding: 0;
