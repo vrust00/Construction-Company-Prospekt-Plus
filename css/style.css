@@ -748,6 +748,7 @@ table {
   padding-bottom: 163px;
   padding-right: 20px;
   padding-left: 20px;
+  padding-top: 100px;
 }
 @media screen and (max-width: 992px) {
   .projects {
@@ -757,7 +758,6 @@ table {
 .projects__card-container {
   display: flex;
   flex-direction: column;
-  margin-left: 8vw;
 }
 @media screen and (max-width: 992px) {
   .projects__card-container {
@@ -771,6 +771,11 @@ table {
     width: fit-content;
     margin: auto auto;
   }
+}
+.projects__card-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
 }
 .projects__card {
   width: -moz-fit-content;
@@ -799,8 +804,9 @@ table {
   }
 }
 .projects__title {
-  margin: 18px auto;
+  margin: 18px 0;
   font-size: 24px;
+  text-align: left;
 }
 @media screen and (max-width: 992px) {
   .projects__title {
@@ -833,10 +839,13 @@ table {
   color: #FF9900;
   font-weight: 100;
   text-decoration: none;
-  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
 }
 .projects__arrow {
-  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .advantages-description {
