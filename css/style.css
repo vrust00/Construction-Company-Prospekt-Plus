@@ -83,6 +83,7 @@ table {
   color: white;
   font-family: "PFAgoraSansPro";
   z-index: 3;
+  border-bottom: 5px solid #000000;
 }
 .header__logo {
   height: 80px;
@@ -247,6 +248,7 @@ table {
   background-color: #c21919;
   border-color: #f61e1e;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  border: 3px solid #000000;
   color: white;
   font-size: 20px;
   border-radius: 8px;
@@ -510,6 +512,7 @@ table {
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  border-top: 5px solid #000000;
 }
 @media screen and (max-width: 992px) {
   .footer {

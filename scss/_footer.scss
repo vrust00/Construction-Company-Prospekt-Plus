@@ -8,7 +8,7 @@
    overflow: hidden;
    position: relative;          
    box-sizing: border-box;    
-   
+   border-top: 5px solid #000000;
    @media screen and (max-width: 992px) {
       height: fit-content;
    }
