@@ -834,4 +834,186 @@ table {
 }
 .projects__arrow {
   align-items: center;
+}
+
+.advantages-description {
+  position: relative;
+  color: #263640;
+  font-family: "PFAgoraSansPro";
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+.advantages-description__background {
+  position: absolute;
+  background-color: #E4E3E8;
+  right: 0;
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (max-width: 992px) {
+  .advantages-description__background {
+    height: 100%;
+  }
+}
+.advantages-description__title {
+  position: relative;
+  margin-left: 135px;
+  font-size: 60px;
+  padding-top: 119px;
+  line-height: 1.2;
+}
+@media screen and (max-width: 992px) {
+  .advantages-description__title {
+    font-size: 5vw;
+    margin-left: 5vw;
+  }
+}
+@media screen and (max-width: 540px) {
+  .advantages-description__title {
+    font-size: 32px;
+    width: 70vw;
+  }
+}
+.advantages-description__description {
+  background-color: rgba(228, 227, 232, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  color: #7591A3;
+  font-size: 16px;
+  width: 427px;
+  margin-left: 135px;
+  margin-top: 31px;
+  line-height: 1.5;
+  position: relative;
+}
+@media screen and (max-width: 992px) {
+  .advantages-description__description {
+    font-size: 3vw;
+    margin-left: 5vw;
+  }
+}
+@media screen and (max-width: 540px) {
+  .advantages-description__description {
+    font-size: 16px;
+    width: 55vw;
+  }
+}
+.advantages-description__see-work-btn {
+  cursor: pointer;
+  margin-top: 105px;
+  margin-left: 135px;
+  margin-bottom: 86px;
+  padding: 19px 56px;
+  background-color: #c21919;
+  border-color: #f61e1e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+}
+@media screen and (max-width: 992px) {
+  .advantages-description__see-work-btn {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 5vw;
+  }
+}
+
+.about-achievements {
+  background-color: white;
+  font-family: "PFAgoraSansPro";
+  padding-bottom: 163px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+@media screen and (max-width: 992px) {
+  .about-achievements {
+    padding-bottom: 5vw;
+  }
+}
+.about-achievements__card-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8vw;
+}
+@media screen and (max-width: 992px) {
+  .about-achievements__card-container {
+    margin: auto 10vw;
+  }
+}
+@media screen and (max-width: 540px) {
+  .about-achievements__card-container {
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto auto;
+  }
+}
+.about-achievements__card {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 992px) {
+  .about-achievements__card {
+    width: 100%;
+  }
+}
+.about-achievements__image {
+  width: 20vw;
+  height: 20vw;
+}
+@media screen and (max-width: 992px) {
+  .about-achievements__image {
+    width: 40vw;
+    height: 40vw;
+  }
+}
+@media screen and (max-width: 540px) {
+  .about-achievements__image {
+    width: 100%;
+    height: 100%;
+  }
+}
+.about-achievements__title {
+  margin: 18px auto;
+  font-size: 24px;
+}
+@media screen and (max-width: 992px) {
+  .about-achievements__title {
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: 540px) {
+  .about-achievements__title {
+    font-size: 5vw;
+  }
+}
+.about-achievements__description {
+  margin-bottom: 24px;
+  font-weight: 100;
+  letter-spacing: 10%;
+  line-height: 1.5;
+}
+@media screen and (max-width: 992px) {
+  .about-achievements__description {
+    font-size: 2vw;
+    font-weight: 300;
+  }
+}
+@media screen and (max-width: 540px) {
+  .about-achievements__description {
+    font-size: 3vw;
+  }
+}
+.about-achievements__link {
+  color: #FF9900;
+  font-weight: 100;
+  text-decoration: none;
+  align-items: center;
+}
+.about-achievements__arrow {
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

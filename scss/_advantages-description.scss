@@ -1,0 +1,82 @@
+.advantages-description {
+   position: relative;       
+   color: #263640;
+   font-family: 'PFAgoraSansPro';
+   padding-right: 20px;
+   padding-left: 20px;
+   padding-bottom: 30px;
+   &__background {
+      position: absolute;
+      background-color: #E4E3E8;
+      right: 0;
+      z-index: -1;
+      object-fit: cover;   
+      
+      @media screen and (max-width: 992px) {
+         
+         height: 100%;
+      }    
+
+   }
+
+   &__title {
+      position: relative;  
+      margin-left: 135px;
+      font-size: 60px;
+      
+      padding-top: 119px;
+      line-height: 1.2;
+
+      @media screen and (max-width: 992px) {
+         font-size: 5vw;
+         margin-left: 5vw;
+      }
+
+      @media screen and (max-width: 540px) {
+         font-size: 32px;
+         width: 70vw;
+      }
+   }
+
+   &__description {
+      background-color:rgb(228, 227, 232, 0.8);
+      border-radius: 10px;
+      padding:20px;
+      color: #7591A3;
+      font-size: 16px;
+      width: 427px;
+      margin-left: 135px;
+      margin-top: 31px;
+      line-height: 1.5;
+      position: relative;  
+
+      @media screen and (max-width: 992px) {
+         font-size: 3vw;
+         margin-left: 5vw;
+      }
+
+      @media screen and (max-width: 540px) {
+         font-size: 16px;
+         width: 55vw;
+      }
+   }
+
+   &__see-work-btn{
+      cursor: pointer;
+      margin-top: 105px;
+      margin-left: 135px;
+      margin-bottom: 86px;
+      padding: 19px 56px;
+      background-color: #c21919;
+      border-color: #f61e1e;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      color: white;
+      font-size: 20px;
+      border-radius: 8px; 
+      @media screen and (max-width: 992px) {
+         width: fit-content;
+         margin-left: 5vw;
+         
+      }
+   }
+}
