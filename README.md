@@ -1,34 +1,33 @@
 # Лендинг строительной компании
 
-**Главная страница** 
-![Сайт](images/READme_images/screenshot_full.png)
+# В РАЗРАБОТКЕ⚠️
 
 ## 👀 Посмотреть сайт
-**[Открыть демо](https://vrust00.github.io/Construction-Company-Design/)**
+**[Открыть демо](https://vrust00.github.io/Construction-Company-Prospekt-Plus/)**
 
 ## Что за проект
-Вёрстка адаптивного лендинга для строительной компании по бесплатному макету из Figma.  
-На странице есть шапка, блок с услугами, примеры проектов, форма обратной связи и контакты.
+Вёрстка адаптивного лендинга для строительной компании "Проспект+" по бесплатному макету из Figma.  
+На странице есть шапка, блок с услугами, примеры проектов, адрес офиса на карте и контакты.
 
 ## Какие технологии использовал
 - HTML5
 - CSS3 (Flexbox, Grid)
 - Figma
-- JavaScript (меню-бургер)
+- Yandex Maps
+- JavaScript (меню-бургер, открывающееся "подробнее")
 
 ## Что получилось
 - Корректно выглядит на телефонах, планшетах и больших экранах
 - Семантическая разметка
 - Придерживался методологии БЭМ в названиях классов
-- Все ссылки и меню работают — можно проверить в [демке](https://vrust00.github.io/Construction-Company-Design/)
+- Все ссылки и меню работают — можно проверить в [демке](https://vrust00.github.io/Construction-Company-Prospekt-Plus/)
 
-**Как выглядит на разных устройствах**  
-![Адаптивность](images/READme_images/adaptive.png)
 
 ## Как запустить у себя
 1. Склонируйте репозиторий (cmd):  
-   `git clone https://github.com/vrust00/Construction-Company-Design.git`
-2. Откройте файл `index.html` в любом браузере.
+   `git clone https://github.com/vrust00/Construction-Company-Prospekt-Plus.git`
+   
+3. Откройте файл `index.html` в любом браузере.
 
 ## Контакты для связи со мной
 - Telegram: [@j_mkll](https://t.me/j_mkll)
