@@ -9,6 +9,7 @@
    font-family: 'PFAgoraSansPro';
    z-index: 3;
    border-bottom: 5px solid #000000;
+   
    &__logo {
       height: 80px;
       width: 150px;
@@ -100,4 +101,10 @@
 
 .hide {
    display: none !important;
+}
+
+
+
+html{
+  scroll-behavior: smooth;
 }
