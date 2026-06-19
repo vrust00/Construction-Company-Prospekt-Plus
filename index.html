@@ -46,9 +46,8 @@
          </p>
          <p class="slogan__description">
             ООО «Проспект+» — ваш надёжный партнёр в строительстве, благоустройстве территорий и инженерной инфраструктуре. Полный цикл строительных и монтажных работ. Собственный парк техники. Огромный практический опыт.
-             <!-- <b style="color: black;">Более 17 лет</b> на рынке. -->
          </p>
-         <a href="#activity" class="slogan__btn-link" >
+         <a href="#activity" class="slogan__btn-link">
             <button class="slogan__see-work-btn">Наши услуги</button>
          </a>
       </div>
@@ -102,7 +101,7 @@
             <img src="images/partners_logo3.png" alt="Партнёр 3" class="partners__logo">
          </a>
          <a href="#" class="partners__link">
-            <img src="images/partners_logo4.png" alt="Партнёр 3" class="partners__logo">
+            <img src="images/partners_logo4.png" alt="Партнёр 4" class="partners__logo">
          </a>
       </div>
    </section>
@@ -110,54 +109,92 @@
    
    <section id="activity" class="activity">
       <div class="activity__card-container">
+         
+         <!-- КАРТОЧКА 1 -->
          <article class="activity__card">
             <img src="images/act_Image.png" alt="Инженерные сети" class="activity__image">
             <h3 class="activity__title">Инженерные сети</h3>
             <p class="activity__description">
                Устройство наружных сетей водопровода, канализации, водоотведения и теплоснабжения. Полный комплекс работ по инженерной инфраструктуре.
             </p>
-            <a href="#" class="activity__link">
+            <a href="#" class="activity__link" data-target="desc1">
                Подробнее
                <img src="images/symbol.png" alt="" class="activity__arrow">
             </a>
+
+            <div class="activity__full-description" id="desc1">
+               <h4>Полный перечень инженерных работ</h4>
+               <ul>
+                  <li>Проектирование инженерных сетей</li>
+                  <li>Устройство наружного водопровода</li>
+                  <li>Монтаж систем канализации и водоотведения</li>
+                  <li>Прокладка теплоснабжения</li>
+                  <li>Подключение к городским коммуникациям</li>
+                  <li>Сдача объекта в эксплуатацию</li>
+               </ul>
+            </div>
          </article>
          
+         <!-- КАРТОЧКА 2 -->
          <article class="activity__card">
             <img src="images/act_Image-1.png" alt="Дорожные работы" class="activity__image">
             <h3 class="activity__title">Дорожные работы</h3>
             <p class="activity__description">
                Асфальтирование дорог, тротуаров, устройство парковочных площадок, отмостки. Монтаж тротуарной плитки, бетонных и железобетонных конструкций.
             </p>
-            <a href="#" class="activity__link">
+            <a href="#" class="activity__link" data-target="desc2">
                Подробнее
                <img src="images/symbol.png" alt="" class="activity__arrow">
             </a>
+
+            <div class="activity__full-description" id="desc2">
+               <h4>Полный перечень дорожных работ</h4>
+               <ul>
+                  <li>Асфальтирование дорог и тротуаров</li>
+                  <li>Устройство парковочных площадок и отмостки</li>
+                  <li>Монтаж тротуарной плитки</li>
+                  <li>Бетонные и железобетонные конструкции</li>
+                  <li>Монтаж сборных конструкций</li>
+               </ul>
+            </div>
          </article>
          
+         <!-- КАРТОЧКА 3 -->
          <article class="activity__card">
             <img src="images/act_Image-2.png" alt="Благоустройство" class="activity__image">
             <h3 class="activity__title">Благоустройство и монтаж</h3>
             <p class="activity__description">
                Благоустройство и озеленение территорий, монтажные и проектные работы. Подготовительные и земляные работы любой сложности.
             </p>
-            <a href="#" class="activity__link">
+            <a href="#" class="activity__link" data-target="desc3">
                Подробнее
                <img src="images/symbol.png" alt="" class="activity__arrow">
             </a>
+
+            <div class="activity__full-description" id="desc3">
+               <h4>Полный перечень работ по благоустройству</h4>
+               <ul>
+                  <li>Благоустройство и озеленение территорий</li>
+                  <li>Подготовительные и земляные работы</li>
+                  <li>Монтажные работы любой сложности</li>
+                  <li>Проектные работы</li>
+               </ul>
+            </div>
          </article>
+
       </div>
    </section>
 
    
    <footer class="footer">
-      <a href="/" class="footer__logo-link">
+      <a href="index.html" class="footer__logo-link">
          <img src="images/logo.png" alt="Проспект+" class="footer__logo">
       </a>
 
       <img src="images/footer-extraobj.png" alt="" class="footer__extra-img" aria-hidden="true">
       
       <nav class="footer__pages-container">
-         <a href="" class="footer__bar-link">Главная</a>
+         <a href="index.html" class="footer__bar-link">Главная</a>
          <a href="#activity" class="footer__bar-link">Услуги</a>
          <a href="projects.html" class="footer__bar-link">Наши проекты</a>
          <a href="about.html" class="footer__bar-link">О компании</a>
@@ -167,5 +204,6 @@
    </footer>
 
    <script src="js/menu-bar.js"></script>
+   <script src="js/desc.js"></script>
 </body>
 </html>
